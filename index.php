@@ -1,0 +1,13 @@
+<?php
+session_start();
+require_once('config.php');
+require_once('config/db.config.php');
+require_once('resources/router.php');
+require_once('controllers/ViewController.php');
+require_once('controllers/BaseController.php');
+require_once('controllers/HomeController.php');
+require_once('controllers/ClientController.php');
+require_once('controllers/UserController.php');
+require_once('authentication/authentication.php');
+include_once('views/template.php');
+?>
